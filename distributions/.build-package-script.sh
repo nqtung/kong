@@ -215,7 +215,7 @@ rocks_trees = {
 }
 " > $rocks_config
 export LUAROCKS_CONFIG=$rocks_config
-export LUA_PATH=${OUT}/usr/local/share/lua/5.1/?.lua
+export LUA_PATH=${OUT}/usr/local/share/lua/5.1/?.lua;/usr/local/openresty/lualib/?.lua
 
 # Install Kong
 cd $TMP
